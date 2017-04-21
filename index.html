@@ -1,109 +1,45 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>WDD Homework 8</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-        </script>
-        <script src = "assets/js/script.js"></script>
+        <title>Vickcul</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/vicky.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/vicky.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     </head>
     <body>
-        <!-- Sidebar Hamburger Icon -->
-        <div id = "sidebar-button">
-            <a id="nav-toggle">
-                <span></span>
-            </a>
+        <div class="navcork">
+            <div class="leftside">
+                <img class="panelimage aboutshadow" src="assets/img/About-shadow.png" />
+                <img class="panelimage about" src="assets/img/About.png" />
+                <img class="panelimage pinabout" src="assets/img/Pinabout.png" />
+                <img class="panelimage renjunzhu" src="assets/img/RenjunZhu.png" />
+                <div class="divtoclick aboutdiv">  </div>
+            </div>
+            <div class="rightside">
+                <img class="panelimage workshadow" src="assets/img/Work-shadow.png" />
+                <img class="panelimage work" src="assets/img/Work.png" />
+                <img class="panelimage activitiesshadow" src="assets/img/Activities-shadow.png" />
+                <img class="panelimage activities" src="assets/img/Activities.png" />
+                <img class="panelimage pinactivities" src="assets/img/Pinactivities.png" />
+                <img class="panelimage pinwork" src="assets/img/Pinwork.png" />
+                <img class="panelimage personalshadow" src="assets/img/Personal-shadow.png" />
+                <img class="panelimage personal" src="assets/img/Personal.png" />
+                <img class="panelimage pinpersonal" src="assets/img/Pinpersonal.png" />        
+                <div class="divtoclick workdiv">  </div>
+                <div class="divtoclick activitiesdiv">  </div>
+                <div class="divtoclick personaldiv"> </div>
+
+            </div>
         </div>
 
-        <!-- Sidebar -->
-        <nav class = "sidebar-container">
-            <!-- Question 1: Sidebar Code Here -->
-            <ul>
-                <li class="sidebar-item">Home</li>
-                <li class="sidebar-item">Name</li>
-                <li class="sidebar-item">Major</li>
-                <li class="sidebar-item">Fact</li>
-            </ul>
-
-
-            <!-- End Question 1 Here (Use as many lines as needed, but don't add code below this point)-->
-        </nav>
-
-        <!-- Page Wrapper, Consisting of All the Sections -->
-        <div class = "page-wrapper">
-            <!-- Carousel Section -->
-            <section class = "section" id = "carousel-section">
-                <div class = "carousel-container">
-                <!-- Question 2: Carousel Code Here -->
-                <div id="carousel">
-                    <div class="carousel-item">
-                        <div class="quote">To be, or not to be: that is the question...
-                            <div class="author">William Shakespeare</div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="quote">If music be the food of love play on.
-                            <div class="author">William Shakespeare</div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="quote">Wisdom begins in wonder.
-                            <div class="author">Socrates</div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="quote">Love all, trust a few, do wrong to none.
-                            <div class="author">William Shakespeare</div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="quote">Life is like riding a bicycle. To keep your balance, you must keep moving.
-                            <div class="author">Albert Einstein</div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
-                    <div id="carousel-prev">
-                        <img class="img-scaled" src="assets/img/arrowleft.png" />
-                    </div>
-                    <div id="carousel-next">
-                        <img class="img-scaled" src="assets/img/arrowright.png" />
-                    </div>
-                </div>
-            </section>
-            <!-- Name Section -->
-            <section class = "section" id = "name-section">
-                <div class = "text" id = "name-text">
-                    <!-- I am ENTER NAME HERE -->
-                    I am Renjun Zhu
-                </div>
-            </section>
-            <!-- Major Section -->
-            <section class = "section" id = "major-section">
-                <div class = "text" id = "major-text">
-                    <!-- I am majoring in ENTER MAJOR HERE -->
-                    I am majoring in Mathematics and Statistics
-                </div>
-            </section>
-            <!-- Random Fact Section -->
-            <section class = "section" id = "fact-section">
-                <div class = "text" id = "fact-text">
-                    <!-- ENTER RANDOM FACT HERE -->
-                    I love ice cream.
-                </div>
-            </section>
+        <!-- Where the content from About/Work/Personal Goes... gets loaded by $.ajax from about.html and work.html... -->
+        <div class="container">
+            <div id="content" class="content">;
+            </div>
         </div>
+
     </body>
 </html>
