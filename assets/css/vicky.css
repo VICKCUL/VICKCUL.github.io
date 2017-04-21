@@ -44,7 +44,7 @@ body {
 	width: 100%;
 }
 .rightpanel {
-	background-image: url("/images/Paperbg.jpg");
+	background-image: url("/assets/img/Paperbg.jpg");
 	background-repeat: repeat;
 	height: auto;
 	padding: 20px;
@@ -62,7 +62,7 @@ body {
 	border: 0px;
 	float: left;
 	background-repeat: round;
-	background-image: url("/images/corkbg.jpg");
+	background-image: url("/assets/img/corkbg.jpg");
 	background-color: #cccccc;
 }
 
