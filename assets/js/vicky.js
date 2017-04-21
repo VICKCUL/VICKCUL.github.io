@@ -107,7 +107,7 @@ $(document).ready(function(){
 		});
 		bringToFront("work", false);
 		$.ajax({
-			url: "/work",
+			url: "work.html",
 			method: "GET"
 		}).done( function(data) {
 			$("#content").html(" ");
@@ -121,7 +121,7 @@ $(document).ready(function(){
 		});
 		bringToFront("activities");
 		$.ajax({
-			url: "/activities",
+			url: "activities.html",
 			method: "GET"
 		}).done( function(data) {
 			$("#content").html(" ");
@@ -135,7 +135,7 @@ $(document).ready(function(){
 		});
 		bringToFront("personal");
 		$.ajax({
-			url: "/personal",
+			url: "personal.html",
 			method: "GET"
 		}).done( function(data) {
 			$("#content").html(" ");
@@ -150,12 +150,12 @@ $(document).ready(function(){
 		bringToFront("about");
 		shake("about");
 		$.ajax({
-			url: "/about",
+			url: "about.html",
 			method: "GET"
 		}).done( function(data) {
 			$("#content").html(data);
 		});
 	})
 	$(".aboutdiv").click();
-})
 
+})

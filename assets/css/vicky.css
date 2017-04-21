@@ -11,19 +11,82 @@ body {
 }
 
 .container {
-	margin: auto;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 	clear: both;
-	float: right;
-}
-.photo {
-	margin-bottom: 15px;
-}
-.containerbottom {
-	margin-top: 20px;
-	padding: 10px;
 }
 
+.containerbottom {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+#left {
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    padding: 10px;
+    left: 40px;
+    float: left;
+    top: 50%;
+    margin-top: -50px;
+    border-radius: 10%;
+    background-image: url("../img/Paperbg.jpg");
+    -webkit-transition: all 0.3s;
+}
+
+#right {
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    padding: 10px;
+    right: 40px;
+    top: 50%;
+    float: left;
+    margin-top: -50px;
+    border-radius: 10%;
+    background-image: url("../img/Paperbg.jpg");
+    -webkit-transition: all 0.3s;
+}
+
+.section-container{
+    height: 500px;
+    width: 960px;
+    min-width:960px;
+    overflow:hidden;
+    position:relative;
+    -webkit-transition:all 0.3s;
+    left: 23vh;
+    border-radius: 2%;
+}
+
+#section1 {
+    width: 5760px;
+    height: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    background-image: url("../img/Paperbg.jpg");
+}
+
+.section-item {
+    padding: 10px 0px 10px 10px;
+    margin: 0px;
+    width: 740px;
+    min-width: 740px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.section-text {
+    padding-right: 10px;
+    text-align: left;
+    width: 200px;
+    height: 50%;
+    float: left;
+    position: relative;
+    top: 25%
+}
 .content {
 	margin: 0px;
 	padding: 0px;
@@ -35,16 +98,15 @@ body {
 }
 
 .portrait {
-	width: 100%;
+    border-radius: 2%;
+	max-width: 700px;
+    max-height: 480px;
+    min-width: 700px;
+    min-height: 480px;
 }
-.multiportraits {
-	margin-bottom: 15px;
-}
-.row {
-	width: 100%;
-}
+
 .rightpanel {
-	background-image: url("/assets/img/Paperbg.jpg");
+	background-image: url("../img/Paperbg.jpg");
 	background-repeat: repeat;
 	height: auto;
 	padding: 20px;
@@ -62,7 +124,7 @@ body {
 	border: 0px;
 	float: left;
 	background-repeat: round;
-	background-image: url("/assets/img/corkbg.jpg");
+	background-image: url("../img/corkbg.jpg");
 	background-color: #cccccc;
 }
 
