@@ -50,10 +50,10 @@ export default [
       <>
         <div className={classes.captionParagraph}>Contact</div>
         <div className={classes.captionParagraph}>
-          email: <a href="mailto:rzhu@nd.edu">rzhu@nd.edu</a>
+          ND email: <a href="mailto:rzhu@nd.edu">rzhu@nd.edu</a>
         </div>
         <div className={classes.captionParagraph}>
-          email: <a href="mailto:renjun.zhu@berkeley.edu">renjun.zhu@berkeley.edu</a>
+          Cal email: <a href="mailto:renjun.zhu@berkeley.edu">renjun.zhu@berkeley.edu</a>
         </div>
         <div className={classes.captionParagraph}>
           text: <a href="tel:+16266956867">626-695-6867</a>
