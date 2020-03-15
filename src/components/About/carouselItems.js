@@ -3,7 +3,6 @@ import about1 from "../../assets/about1.jpg";
 import about1pdf from "../../assets/renjunCV.pdf";
 import about2 from "../../assets/about2.jpg";
 import afraid from "../../assets/afraid.jpg";
-import conference from "../../assets/conference.png"
 // import newimage from "../../assets/nameoffile.jpg"
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 export default [
