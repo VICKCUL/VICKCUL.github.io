@@ -4,6 +4,7 @@ import slides from "../../assets/Oral_Exam.key";
 import predgame from "../../assets/PredictionGame.pdf";
 import bayesian from "../../assets/Bayesian.pdf";
 import stochastic from "../../assets/Stochastic.pdf";
+import nonlinear from "../../assets/Nonlinear Final Project on Fast-Slow Analysis.pdf"
 import graduate from "../../assets/graduate.jpg";
 import HarmonicTriangle from "../../assets/HarmonicTriangle.pdf";
 import Frame from "../../assets/frame.pdf";
@@ -41,6 +42,10 @@ export default [
         <div className={classes.captionParagraph}>
           <strong>ACMS 70860</strong>: Stochastic Analysis{" "}
           <a href={stochastic}>Numerical SDE in Brain</a>
+        </div>
+        <div className={classes.captionParagraph}>
+          <strong>ACMS 60630</strong>: Nonlinear Dynamics{" "}
+          <a href={nonlinear}>Nonlinear Final Project on Fast-Slow Analysis</a>
         </div>
         <div className={classes.captionParagraph}>
           And my{" "}
