@@ -48,7 +48,10 @@ const useStyles = makeStyles(theme => ({
   caption: {
     width: "100%",
     overflowY: "scroll",
-    height: "100%"
+    height: "95%",
+    "&::-webkit-scrollbar": {
+      display: "none"
+    }
   },
   captionParagraph: {
     marginBottom: "8px"

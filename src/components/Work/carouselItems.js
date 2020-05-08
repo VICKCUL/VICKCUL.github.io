@@ -4,7 +4,7 @@ import slides from "../../assets/Oral_Exam.key";
 import predgame from "../../assets/PredictionGame.pdf";
 import bayesian from "../../assets/Bayesian.pdf";
 import stochastic from "../../assets/Stochastic.pdf";
-import nonlinear from "../../assets/Nonlinear Final Project on Fast-Slow Analysis.pdf"
+import nonlinear from "../../assets/Nonlinear_Final_Project_on_Fast-Slow_Analysis.pdf"
 import graduate from "../../assets/graduate.jpg";
 import HarmonicTriangle from "../../assets/HarmonicTriangle.pdf";
 import Frame from "../../assets/frame.pdf";
