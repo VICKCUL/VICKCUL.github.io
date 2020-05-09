@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "rm -rf build && yarn build && git add . && git commit -a -m 'update' && git push && git push -d origin master && git subtree push --prefix build origin master"
+    "deploy": "rm -rf build && yarn build && git add . && git commit -a -m 'update' && git push && git push origin `git subtree split --prefix build master`:development --force"
   },
   "eslintConfig": {
     "extends": "react-app"
