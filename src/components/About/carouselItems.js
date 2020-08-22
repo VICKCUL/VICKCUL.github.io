@@ -13,7 +13,7 @@ export default [
     caption: classes => (
       <>
         <div className={classes.captionParagraph}>
-          My name is Vicky Zhu. I am a 2nd-year Applied Computational
+          My name is Vicky Zhu. I am a 3rd-year Applied Computational
           Mathematics and Statistics(ACMS) graduate student at University of
           Notre Dame. I received my B.A. in mathematics and statistics from
           University of California, Berkeley in 2018.

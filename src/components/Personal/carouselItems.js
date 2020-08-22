@@ -11,7 +11,7 @@ export default [
     caption: classes => (
       <>
         <div className={classes.captionParagraph}>
-          I love music of many kinds, I started playing the piano 2 years ago
+          I love music of many kinds, I started playing the piano a couple years ago
           and recently learned how to play the guitar...
         </div>
       </>
