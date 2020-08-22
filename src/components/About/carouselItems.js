@@ -1,6 +1,6 @@
 import React from "react";
 import about1 from "../../assets/about1.jpg";
-import about1pdf from "../../assets/renjunCV.pdf";
+import about1pdf from "../../assets/V_CV.pdf";
 import about2 from "../../assets/about2.jpg";
 import afraid from "../../assets/afraid.jpg";
 // import newimage from "../../assets/nameoffile.jpg"

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f2683547.chunk.css",
-    "main.js": "/static/js/main.2b6d914c.chunk.js",
-    "main.js.map": "/static/js/main.2b6d914c.chunk.js.map",
+    "main.js": "/static/js/main.18c5e701.chunk.js",
+    "main.js.map": "/static/js/main.18c5e701.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24b980ea.js",
     "runtime-main.js.map": "/static/js/runtime-main.24b980ea.js.map",
     "static/js/2.5065e5b0.chunk.js": "/static/js/2.5065e5b0.chunk.js",
     "static/js/2.5065e5b0.chunk.js.map": "/static/js/2.5065e5b0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5f8bdc74d98495758e0555d38e3a366c.js": "/precache-manifest.5f8bdc74d98495758e0555d38e3a366c.js",
+    "precache-manifest.334dd7631ef55bc4af645555b61710e9.js": "/precache-manifest.334dd7631ef55bc4af645555b61710e9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f2683547.chunk.css.map": "/static/css/main.f2683547.chunk.css.map",
     "static/js/2.5065e5b0.chunk.js.LICENSE.txt": "/static/js/2.5065e5b0.chunk.js.LICENSE.txt",
@@ -22,7 +22,7 @@
     "static/media/GovernmentWebsites.pdf": "/static/media/GovernmentWebsites.b52143b9.pdf",
     "static/media/HarmonicTriangle.pdf": "/static/media/HarmonicTriangle.e732795f.pdf",
     "static/media/MixingTimesoftheGeneralizedRooksWalk.pdf": "/static/media/MixingTimesoftheGeneralizedRooksWalk.ca6c5feb.pdf",
-    "static/media/Nonlinear Final Project on Fast-Slow Analysis.pdf": "/static/media/Nonlinear Final Project on Fast-Slow Analysis.2ef4e24b.pdf",
+    "static/media/Nonlinear_Final_Project_on_Fast-Slow_Analysis.pdf": "/static/media/Nonlinear_Final_Project_on_Fast-Slow_Analysis.2ef4e24b.pdf",
     "static/media/Oral_Exam.key": "/static/media/Oral_Exam.a9a64448.key",
     "static/media/Paperbg.jpg": "/static/media/Paperbg.95431f2a.jpg",
     "static/media/Personal-shadow.png": "/static/media/Personal-shadow.dd6651f8.png",
@@ -35,6 +35,7 @@
     "static/media/Stochastic.pdf": "/static/media/Stochastic.cceef143.pdf",
     "static/media/TA.jpg": "/static/media/TA.90ebddb1.jpg",
     "static/media/ThoughtsAboutOscar.pdf": "/static/media/ThoughtsAboutOscar.92bac880.pdf",
+    "static/media/V_CV.pdf": "/static/media/V_CV.283f96b2.pdf",
     "static/media/Work-shadow.png": "/static/media/Work-shadow.695916f3.png",
     "static/media/Work.png": "/static/media/Work.948dc636.png",
     "static/media/about1.jpg": "/static/media/about1.d2bbf8fe.jpg",
@@ -53,7 +54,6 @@
     "static/media/play.jpg": "/static/media/play.ebabbabf.jpg",
     "static/media/poster-mixing-times.pdf": "/static/media/poster-mixing-times.94b00222.pdf",
     "static/media/rainbow.pdf": "/static/media/rainbow.51e8936a.pdf",
-    "static/media/renjunCV.pdf": "/static/media/renjunCV.5c194a93.pdf",
     "static/media/resizebird.jpg": "/static/media/resizebird.80a59f9a.jpg",
     "static/media/sunset2.jpg": "/static/media/sunset2.e61982c8.jpg",
     "static/media/swimming.jpg": "/static/media/swimming.5fbb3f05.jpg",
@@ -63,6 +63,6 @@
     "static/js/runtime-main.24b980ea.js",
     "static/js/2.5065e5b0.chunk.js",
     "static/css/main.f2683547.chunk.css",
-    "static/js/main.2b6d914c.chunk.js"
+    "static/js/main.18c5e701.chunk.js"
   ]
 }
