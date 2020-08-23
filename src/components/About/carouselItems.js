@@ -24,7 +24,7 @@ export default [
           music, literature, movies, dance, and swimming...
         </div>
         <div className={classes.captionParagraph}>
-          This is my <a href={about1pdf}>cv</a>
+          This is my <a href={about1pdf}>CV</a>
         </div>
       </>
     )
